@@ -1,0 +1,60 @@
+body{
+    background-color: #ffcccc;
+    color: #aaa69d;
+}
+
+/*h1 => not working, should it bottom h1 "2"*/
+/*using "!inportant" making*/
+h1{
+    background-color: ;
+}
+
+/* TOP, RIGHT, BOTTOM LEFT*/
+h1{
+    background-color: #cf6a87;
+    color: white;
+    border: 8px solid white;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+#instructors-list li,
+#students-list li{
+    border: 1px dotted chocolate;
+}
+
+#students-list li{
+    border: 1px dotted white;
+}
+#renad{
+    background-color: white;
+}
+
+.targets{
+    background-color: wheat;
+}
+
+.logo{
+    border: 5px solid beige;
+    position: relative;
+}
+
+/*Chat bottom */
+#chat{
+    background-color: khaki;
+    color: lightcoral;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+#overlay{
+    background-color: rgba(213, 230, 247, 0.199);
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+/* usin "top: -100" "left: -20"*/
