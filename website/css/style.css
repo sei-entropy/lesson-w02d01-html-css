@@ -1,0 +1,50 @@
+body {
+  background-color: #d8d9d7;
+}
+
+h1,
+h2 {
+  color: #00060d;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  /* width: 20%;
+  height: 25%; */
+}
+
+footer {
+  text-align: center;
+}
+
+#students-list li,
+#instructors-list {
+  border: 2px dashed #403430;
+}
+
+#instructors-list {
+}
+
+.logo {
+  border: 5x solid magenta;
+
+  position: absolute;
+  top: 0em;
+  right: 0em;
+}
+
+#chat {
+  background-color: aqua;
+  position: fixed;
+  bottom: 0em;
+  right: 0em;
+}
+
+#overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+}
